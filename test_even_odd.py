@@ -1,4 +1,4 @@
-from evenodd import evenodd
+from even_odd import evenodd
 
 def test_even():
     assert evenodd(100) == "The Number is Even"
