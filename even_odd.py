@@ -1,8 +1,8 @@
 ## check if the number is even or odd using function
 def evenodd(num):
-   if(num%2 == 0):
-    print("The Number is Even")
-   else:
-    print("The Number is Odd")
+    if(num%2 == 0):
+        return "The Number is Even"
+    else:
+        return "The Number is Odd"
 
-evenodd(18)
+print(evenodd(18))
